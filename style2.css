@@ -1,0 +1,1374 @@
+/*@media screen and (min-width:960px) {*/
+.container {
+    width: 960px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.header {
+    height: 872px;
+    background-image: url(icons/bg2.png);
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.logo {
+/*    width: 300px;*/
+    display: flex;
+}
+
+.pingbul {
+/*    width: auto;*/
+/*    height: auto;*/
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "LeagueGothic";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 33.72px;
+    text-transform: uppercase;
+    margin: 57px 0;
+    display: flex;
+}
+
+.er {
+/*    width: auto;*/
+/*    height: 40px;*/
+    /*
+    background-color: -webkit-linear-gradient(to top, #322539 0%, #745083 100%);
+    -webkit-background-clip: text;
+*/
+    /*    -webkit-text-fill-color: transparent;*/
+    color: #322539;
+    font-family: "LeagueGothic";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 33.72px;
+    text-transform: uppercase;
+    margin: 57px 0px;
+    display: flex;
+}
+
+.m {
+/*    height: 154px;*/
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    width: 640px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.li:hover {
+    text-decoration: underline;
+}
+ .li2:hover{
+        text-decoration: underline;
+    }
+
+.li {
+    width: 640px;
+    font-size: 24px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.405;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+.li2 {
+    width: 640px;
+    font-size: 24px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.405;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+
+.header_2 {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 168px;
+    /*        z-index: 20;*/
+}
+
+.box {
+    width: 960px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt {
+    width: 50%;
+    min-height: 221px;
+    margin: 84px 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.txt1 {
+    height: 50px;
+    font-size: 60px;
+    line-height: 36px;
+    font-family: "LeagueGothic";
+    color: rgb(254, 254, 254);
+    line-height: 45px;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.txt2 {
+    height: 30px;
+    color: #edbfff;
+    font-size: 32px;
+    line-height: 36px;
+    font-family: "LeagueGothic";
+}
+
+.txt3 {
+    color: rgb(254, 254, 254);
+    font-size: 24px;
+    line-height: 36px;
+    font-family: "MyriadPro";
+}
+
+
+.img1 {
+    width: 30%;
+    height: auto;
+    background-image: url(icons/Iphone.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 400px;
+    padding-left: 120px;
+}
+
+.rB {
+    width: 200px;
+    height: 20px;
+    background-image: url(icons/radio.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-right: 30px;
+}
+
+.section-top {
+    height: 342px;
+    background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+    position: relative;
+}
+
+.box_1_0 {
+    width: auto;
+    height: 350px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.box_1 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: flex-start;
+}
+
+.box_1_2 {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-left: -28px;
+}
+
+.img1_1 {
+    width: auto;
+    height: auto;
+    margin: 5px;
+    display: flex;
+    margin-right: 5px;
+}
+
+.txt1_1 {
+    width: 223px;
+    height: 113px;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "Open_Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.txt1_2_1::before {
+    content: url(icons/Layer_34.png);
+    position: relative;
+    right: 10px;
+}
+
+.txt1_2_2::before {
+    content: url(icons/Layer_35.png);
+    position: relative;
+    right: 10px;
+}
+
+.txt1_2_3::before {
+    content: url(icons/Layer_36.png);
+    position: relative;
+    right: 10px;
+}
+
+
+.txt1_2_1 {
+    width: 230px;
+    height: 30px;
+    display: flex;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "LeagueGothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.txt1_2_2 {
+    width: 250px;
+    height: 30px;
+    display: flex;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "LeagueGothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.txt1_2_3 {
+    width: 250px;
+    height: 30px;
+    display: flex;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "LeagueGothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.txt1_3 {
+    width: 100px;
+    height: 22px;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "LeagueGothic";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.section-center {
+    height: 607px;
+    background-color: #f9f9f9;
+    position: relative;
+    /*    z-index: 5;*/
+}
+
+.container2 {
+    width: 960px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.box_2 {
+    width: 960px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.b {
+    width: 300px;
+    margin-right: 50px;
+
+}
+
+.box2_1 {
+    width: 427px;
+    height: 271px;
+    background-color: white;
+    margin-top: 100px;
+    padding: 3px;
+    margin-left: -80px;
+    /*        position: relative;*/
+}
+
+.box2_2 {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 30px 60px 5px;
+    position: relative;
+}
+
+.txt2_1 {
+    width: 327px;
+    height: 271px;
+    color: #454545;
+    font-family: "Open_Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 60px;
+
+}
+
+.img2_0 {
+    width: 200px;
+    height: 20px;
+    background-image: url(icons/Navigation_copy.png);
+    background-repeat: no-repeat;
+    margin: 20px 100px;
+
+}
+
+.txt2_2 {
+    font-family: "LeagueGothic";
+    font-size: 30px;
+    font-weight: 400;
+    color: #454545;
+    text-transform: uppercase;
+}
+
+.txt2_3 {
+    font-family: "LeagueGothic";
+    font-size: 30px;
+    font-weight: 400;
+    color: #edbfff;
+    text-transform: uppercase;
+}
+
+.icon1 {
+    width: 65px;
+    height: 60px;
+    background-image: url(icons/source_of_icons.png);
+    position: relative;
+    top: 110px;
+    left: 40px;
+}
+
+.foto {
+    background-position: -520px 60px;
+    position: relative;
+}
+
+.icon2 {
+    width: 65px;
+    height: 60px;
+    background-image: url(icons/source_of_icons.png);
+    margin-top: 10px;
+}
+
+.f1 {
+    background-position: -210px -320px;
+}
+
+.f2 {
+    background-position: -140px -380px;
+}
+
+.f3 {
+    background-position: -70px -430px;
+}
+
+.png {
+    height: 70px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-around;
+}
+
+.i1 {
+    width: 65px;
+    height: 65px;
+/*    margin-right: 20px;*/
+    margin: 20px;
+    background-image: url(icons/i1.png);
+}
+
+.i2 {
+    width: 65px;
+    height: 65px;
+/*    margin-right: 50px;*/
+    margin: 20px;
+    background-image: url(icons/i2.png);
+}
+
+.i3 {
+    width: 65px;
+    height: 65px;
+/*    margin-right: 50px;*/
+    margin: 20px;
+    background-image: url(icons/i3.png);
+}
+
+.i4 {
+    width: 65px;
+    height: 65px;
+/*    margin-right: 50px;*/
+    margin: 20px;
+    background-image: url(icons/i4.png);
+}
+
+.i5 {
+    width: 120px;
+    height: 65px;
+/*    margin-right: 20px;*/
+    margin: 20px;
+    background-image: url(icons/i5.png);
+}
+
+.i6 {
+    width: 90px;
+    height: 65px;
+/*    margin-right: 20px;*/
+    margin: 20px;
+    background-image: url(icons/i6.png);
+}
+
+.box2_3 {
+    width: auto;
+    min-height: 271px;
+    margin-top: 100px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.box2_4 {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.box2_5 {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2_6 {
+    width: auto;
+    height: auto;
+    /*    display: flex;*/
+}
+
+.ul2 {
+    display: flex;
+    justify-content: flex-start;
+    color: #454545;
+    font-family: "LeagueGothic";
+    font-size: 30px;
+    font-weight: 400px;
+    text-transform: uppercase;
+}
+
+.li22 {
+    font-family: "Open_Sans_B";
+    font-size: 18px;
+    color: #454545;
+    margin-left: 20px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.li23 {
+    font-family: "Open_Sans";
+    font-size: 12px;
+    color: #454545;
+    margin-left: 20px;
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+.txt23 {
+    width: 200px;
+    height: 22px;
+    /*    text-shadow: 1px 1px 0 #0f1518;*/
+    color: #454545;
+    font-family: "LeagueGothic";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-battom {
+    height: 512px;
+    background-color: #ececec;
+}
+
+.container4 {
+    width: 960px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box4_1 {
+    width: auto;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 100px 20px;
+
+}
+
+.img4_1 {
+    width: 147px;
+    height: 50px;
+    background-image: url(icons/Logo_copy1.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.txt4_1 {
+    width: 180px;
+    height: 30px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #c5c5c5;
+    font-family: Georgia;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+    display: flex;
+}
+
+.txt4_2 {
+    width: 277px;
+    height: 113px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #787878;
+    font-family: "Open_Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    display: flex;
+}
+
+.txt4_3 {
+    width: 170px;
+    height: 30px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "LeagueGothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.txt4_4 {
+    width: 277px;
+    height: 161px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #787878;
+    font-family: "Open_Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.footer {
+    height: 134px;
+    background-image: url(icons/bg_copy.png);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.container5 {
+    width: 960px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box5_1 {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start
+}
+
+.box5_2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.txt5_1 {
+    width: 137px;
+    height: 13px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: "Open_Sans";
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+
+.txt5_2 {
+    font-family: "Open_Sans_B";
+    font-weight: 400;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu2 {
+    width: 640px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+/*}*/
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .container {
+        width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .txt {
+        width: 278px;
+        min-height: 194px;
+    }
+
+    .txt1 {
+        width: 278px;
+        height: 35px;
+        font-size: 40px;
+        line-height: 25px;
+    }
+
+    .box_1 {
+        width: 150px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    .box_2 {
+        width: 768px;
+        /*
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+*/
+    }
+
+    .txt2 {
+        width: 278px;
+        height: 40px;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .txt2_1 {
+        max-width: 250px;
+        max-height: 170px;
+        display: block;
+        overflow: hidden;
+    }
+
+    .txt3 {
+        width: 278px;
+        font-size: 20px;
+
+        line-height: 25px;
+    }
+
+    .txt1_2_1 {
+        width: 154px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .txt1_2_2 {
+        width: 154px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .txt1_2_3 {
+        width: 154px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .txt1_1 {
+        width: 154px;
+        height: 113px;
+        overflow: hidden;
+    }
+
+    .container2 {
+        width: 768px;
+
+    }
+
+    .box2_1 {
+        max-width: 313px;
+        height: 271px;
+        margin-left: inherit;
+    }
+
+    .box2_2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container4 {
+        width: 768px;
+    }
+
+    .box4_1 {
+        width: 200px;
+        height: 201px;
+        overflow: hidden;
+    }
+
+    .container5 {
+        width: 768px;
+
+    }
+
+    .box5_2 {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:480px) {
+    .header {
+        height: 550px;
+        position: relative;
+        z-index: 6;
+    }
+
+    .container {
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 6;
+    }
+
+    .logo {
+        width: 200px;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .m {
+        width: 244px;
+        height: 30px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 8;
+    }
+
+    .menu {
+        width: 244px;
+        height: 257px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 200px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .m:hover {
+        width: 244px;
+        height: 257px;
+        border: 1px solid black;
+        background-color: rgba(59, 46, 67, 0.7);
+        overflow: visible;
+        position: relative;
+    }
+
+    .menu:hover {
+        padding-top: 3px;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        z-index: 5;
+    }
+
+    .li:hover {
+        text-decoration-line: underline;
+        border: 1px solid black;
+        background-color: #2e2534;
+    }
+
+
+    .li {
+        width: 244px;
+        height: 40px;
+        font-size: 24px;
+        font-family: "LeagueGothic";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        text-decoration-line: underline;
+        text-align: center;
+        text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    }
+    .li2{
+        font-size: 15px;
+    }
+   
+    .header_2 {
+        width: 100%;
+        height: 248px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .box {
+        width: 480px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .txt {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        z-index: 1;
+    }
+
+    .txt1 { 
+        height: 30px;
+        font-size: 30px;
+    }
+
+    .txt2 {
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .txt3 {
+        display: none;
+    }
+
+    .img1 {
+        width: 200px;
+        height: auto;
+        background-image: url(icons/Iphone.png);
+        background-repeat: no-repeat;
+        transform: scale(0.6);
+        display: flex;
+        position: relative;
+        z-index: 1;
+        padding-top: -100px;
+        padding-left: 120px;
+        margin-top: -80px;
+    }
+
+    .section-top {
+        height: 600px;
+    }
+
+    .box_1_0 {
+        width: 480px;
+        height: 150px;
+
+    }
+
+    .box_1 {
+        width: 480px;
+        height: 150px;
+        margin-top: 30px;
+
+    }
+
+    .txt1_1 {
+        width: 380px;
+        height: 150px;
+        margin-left: 25px;
+    }
+
+    .section-center {
+        height: 1020px;
+    }
+
+    .container2 {
+        width: 480px;
+        height: 1020px;
+    }
+
+    .box_2 {
+        width: 480px;
+        height: 1020px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon1{
+        left: -144px;
+    }
+
+    .b {
+/*        margin-left: 150px;*/
+        margin-top: -60px;
+    }
+    .box2_1{
+        width: 400px;
+    }
+    .png {
+        width: 320px;
+        height: 200px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .i1{
+        margin: 20px;
+    }
+     .i2{
+        margin: 20px;
+    }
+     .i3{
+        margin: 20px;
+    }
+     .i4{
+        margin: 5px;
+    }
+     .i5{
+        margin: 5px;
+    }
+     .i6{
+        margin: 5px;
+    }
+
+    .section-battom {
+        height: 1020px;
+    }
+
+    .container4 {
+        width: 480px;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box4_1 {
+        width: 380px;
+        height: 170px;
+        justify-content: center;
+        margin: 74px 20px;
+    }
+
+    .txt4_2 {
+        width: 380px;
+        height: auto;
+    }
+
+    .txt4_4 {
+        width: 380px;
+        height: auto;
+    }
+
+
+    .container5 {
+        width: 480px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box5_1 {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .box5_2{
+        height: 50%;
+        align-items: flex-start;
+    }
+    .menu2{
+        width: 480px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:500px) and (min-width:320px) {
+    .header {
+        width: 100%;
+        height: 516px;
+        margin: 0px auto;
+        position: relative;
+        z-index: 6;
+    }
+   
+
+    .container {
+        width: 320px;
+        height: auto;
+        margin: 0 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        z-index: 6;
+    }
+
+    .logo {
+        width: 200px;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 70px;
+    }
+
+    .m {
+        width: 244px;
+        height: 30px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 8;
+    }
+
+    .menu {
+        width: 244px;
+        height: 257px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 200px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .m:hover {
+        width: 244px;
+        height: 257px;
+        border: 1px solid black;
+        background-color: rgba(59, 46, 67, 0.7);
+        overflow: visible;
+        position: relative;
+    }
+
+    .menu:hover {
+        padding-top: 3px;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        z-index: 5;
+    }
+
+    .li:hover {
+        text-decoration-line: underline;
+        border: 1px solid black;
+        background-color: #2e2534;
+    }
+
+
+    .li {
+        width: 244px;
+        height: 40px;
+        font-size: 24px;
+        font-family: "LeagueGothic";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        text-decoration-line: underline;
+        text-align: center;
+        text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    .header_2 {
+        width: auto;
+/*        height: 150px;*/
+        background-color: transparent;
+        display: flex;
+        margin: -50px auto;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .box {
+        width: 320px;
+/*        height: 200px;*/
+        position: relative;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .txt {
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .txt1 {
+/*        height: 30px;*/
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .txt2 {
+/*        height: 30px;*/
+        font-size: 13px;
+    }
+
+    .txt3 {
+        display: none;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .section-top {
+        width: 100%;
+        height: 600px;
+        margin: 0px auto;
+    }
+
+    .box_1_0 {
+        width: 320px;
+        height: 190px;
+        overflow: hidden;
+
+    }
+
+    .box_1 {
+        width: 290px;
+        height: 150px;
+        margin-top: 5px;
+
+    }
+    .box_1_2{
+        margin-left: -8px;
+    }
+    .txt1_1 {
+        width: 300px;
+        height: 150px;
+        margin-left: 25px;
+    }
+
+    .section-center {
+        width: 100%;
+        height: 1020px;
+        margin: 0px auto;
+    }
+
+    .container2 {
+        width: 320px;
+        height: 1020px;
+    }
+
+    .box_2 {
+        width: 320px;
+        height: 1020px;
+        flex-direction: column;
+    }
+
+    .box2_1 {
+        width: 256px;
+        height: 272px;
+        overflow: hidden;
+        margin-left: 20px;
+    }
+
+    .box2_2 {
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .txt2_1 {
+        width: 210px;
+        height: 190px;
+        padding-top: 20px;
+        padding-right: 10px;
+        margin-left: 50px;
+        overflow: hidden;
+    }
+
+    .img2_0 {
+        margin-left: 110px;
+    }
+
+    .b {
+        width: 320px;
+        margin-left: 30px;
+        margin-top: -60px;
+    }
+
+    .box2_3 {
+        margin-top: 20px;
+    }
+
+    .box2_5 {
+        width: 230px;
+        height: 50px;
+    }
+
+    .li22 {
+        font-size: 13px;
+    }
+
+    .txt23 {
+        margin-top: 20px;
+    }
+
+    .png {
+        width: 300px;
+        height: 200px;
+        flex-wrap: wrap;
+        padding: 20px;
+
+    }
+    .i1{
+        margin: -3px;
+    }
+     .i2{
+        margin: -3px;
+    }
+     .i3{
+        margin: -3px; 
+    }
+     .i4{
+        margin: -3px;
+    }
+     .i5{
+        margin: -3px;
+    }
+     .i6{
+        margin: -3px;
+    }
+
+    .section-battom {
+        display: none;
+    }
+
+    .footer {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .container5 {
+        width: 320px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu2 {
+        display: none;
+    }
+
+    .box5_2 {
+        width: 300px;
+        justify-content: center;
+        margin-top: 25px;
+    }
+}
