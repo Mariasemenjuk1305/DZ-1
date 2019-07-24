@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="big.css">
+    <title>Big_JS</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="txt1">
+            <p> Lorem ipsum dolor sit amet consectetur.</p>
+            <p> Lorem ipsum dolor sit amet consectetur.</p>
+            <p> Lorem ipsum dolor sit amet consectetur.</p>
+            <p> Lorem ipsum dolor sit amet consectetur.</p>
+            <p> Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="but">
+            <button type="button" class="edit">Edit</button>
+            <button type="button" class="style">Style</button>
+        </div>
+        <form action="" name="txt" class="f1">
+
+            <div class="txt2">
+
+                <textarea name="txt3" id="txt3" cols="" rows="">
+
+                </textarea>
+                <div class="but1">
+                    <button type="button" class="add">Add</button>
+                    <button type="button" class="save">Save</button>
+                </div>
+            </div>
+        </form>
+
+
+        <div class="txt4">
+            <span class="fontS">Font size:</span>
+            <div class="txt4_1">
+                <label class="container2">
+                    <input type="radio" id="check12" name="f">12px
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container2">
+                    <input type="radio" id="check14" name="f">14px
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container2">
+                    <input type="radio" id="check16" name="f">16px
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container2">
+                    <input type="radio" id="check18" name="f">18px
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <span class="fontS">Font family:</span>
+            <form action="" name="fontS">
+                <select name="fontFamily1" class="fontFamily">
+                    <option value="font1" aria-placeholder="Choose option">Choose option</option>
+                    <option value="cursive">cursive</option>
+                    <option value="fantasy">fantasy</option>
+                    <option value="monospase">monospase</option>
+                    <option value="sens-serif">sens-serif</option>
+                </select>
+                <table id="table"></table>
+            </form>
+            <span class="fontS">Colors:</span>
+            <div class="colBut">
+                <button type="button" class="color" id="colorText">Color of Text</button>
+                <button type="button" class="color" id="bagckroundColor">Background color</button>
+            </div>
+            <span class="fontS">Style:</span>
+            <div class="txt4_2">
+                <label class="container_3">Bold text
+                    <input type="checkbox" id="bold" name="check_3">
+                    <span class="checkmark_3"></span>
+                </label>
+
+                <label class="container_3">Cursive text
+                    <input type="checkbox" id="italic" name="check_3">
+                    <span class="checkmark_3"></span>
+                </label>
+            </div>
+            <div class="txt4_3">
+                <div class="cont">
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                    <div class="box3"></div>
+                    <div class="box4"></div>
+                    <div class="box5"></div>
+                    <div class="box6"></div>
+                    <div class="box7"></div>
+                    <div class="box8"></div>
+                    <div class="box9"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="choose">
+            <h1 class="h1">Choose what do you want:</h1>
+            <div class="choose_1">
+                <label class="container2">
+                    <input type="radio" id="checkTable" name="f">table
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container2">
+                    <input type="radio" id="checkList" name="f">list
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <form action="" id="formTable" name="f2">
+
+                <span class="fontTable">Count TR:</span>
+                <input type="text" id="table1" placeholder="Count TR:" name="tt">
+
+                <span class="fontTable">Count TD:</span>
+                <input type="text" id="table2" placeholder="Count TD:" name="tt">
+
+                <h3 class="h1">Add style to you table:</h3>
+
+                <span class="fontTable">Width of TD:</span>
+                <input type="text" id="table3" placeholder="Width TD:">
+
+                <span class="fontTable">Height of TD:</span>
+                <input type="text" id="table4" placeholder="Height TD:">
+
+                <div class="choose_2">
+                    <span class="fontTable1">Width of border:</span>
+                    <input type="text" id="table5" placeholder="Width:">
+
+                    <span class="fontTable2">Type of border:</span>
+                    <select name="" id="typeBorder" placeholder="solid">
+                        <option value="solid">solid</option>
+                        <option value="dotted">dotted</option>
+                        <option value="double">double</option>
+                        <option value="dashed">dashed</option>
+                    </select>
+
+                    <span class="fontTable3">Color of border:</span>
+                    <select name="" id="colorBorder" placeholder="black">
+                        <option value="black">black</option>
+                        <option value="red">red</option>
+                        <option value="blue">blue</option>
+                        <option value="green">green</option>
+                    </select>
+                </div>
+                <button type="button" class="butCreat">Create table</button>
+            </form>
+            <form action="" type="text" id="formTable2" name="f3">
+                <span class="fontTable4">Count Li:</span>
+                <input type="text" id="table6">
+                <span class="fontTable4">Type of marks</span>
+                <select name="" id="typeMarks">
+                    <option value="circle">circle</option>
+                    <option value="disc">disc</option>
+                    <option value="square">square</option>
+                </select>
+                <button class="butCreatList" type="button">Create list</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="big.js"></script>
+</body>
+
+</html>
